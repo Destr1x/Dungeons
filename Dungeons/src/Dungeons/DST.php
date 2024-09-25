@@ -104,7 +104,7 @@ class DST extends PluginBase implements Listener {
                 VanillaItems::BONE(), VanillaItems::ROTTEN_FLESH(), VanillaItems::COAL()
             ];
 
-            for($i = 0; $i < 20; $i++) {
+            for($i = 0; $i < 10; $i++) {
                 $item = $items[array_rand($items)];
                 $chestTile->getInventory()->setItem(mt_rand(0, 14), $item);
             }
