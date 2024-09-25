@@ -106,7 +106,7 @@ class DST extends PluginBase implements Listener {
 
             for($i = 0; $i < 20; $i++) {
                 $item = $items[array_rand($items)];
-                $chestTile->getInventory()->setItem(mt_rand(0, 26), $item);
+                $chestTile->getInventory()->setItem(mt_rand(0, 14), $item);
             }
         }
     }
